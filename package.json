@@ -1,0 +1,22 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "asdfasdfasdfsad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinmike/node-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinmike/node-postgres/issues"
+  },
+  "homepage": "https://github.com/shinmike/node-postgres#readme",
+  "dependencies": {
+    "pg": "^6.3.1"
+  }
+}
