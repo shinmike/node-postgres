@@ -23,8 +23,8 @@ client.connect((err) => {
     console.log('Searching ...');
 
     setTimeout( () => {
-      console.log('Found', result.rows.length, 'person(s) by the name', "'"+ inputName +"':");
-      result.rows.forEach(function (row) {
+      console.log('Found', result.rows.length, 'person(s) by the name', "'" + inputName + "':");
+      result.rows.forEach((row) => {
         console.log("- " + row.id + ": " + row.first_name + " " + row.last_name + ", " + "'" + row.birthdate.toISOString().slice(0, 10) + "'");
       });
     }, 1000);
