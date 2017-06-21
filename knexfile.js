@@ -1,4 +1,4 @@
-const settings = require('./settings');
+// const settings = require('./settings');
 
 // Update with your config settings.
 
@@ -6,8 +6,13 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      filename: settings
+    connection: { 
+      "user": "development",
+      "password": "development",
+      "database": "vagrant",
+      "hostname": "localhost",
+      "port": 5432,
+      "ssl": true
     }
   },
 
